@@ -7,3 +7,4 @@ nbval
 click
 flask
 requests
+black

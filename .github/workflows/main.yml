@@ -16,3 +16,6 @@ jobs:
     - name: Install dependencies
       run: |
         make install
+    - name: Lint my code
+      run: |
+        make lint
