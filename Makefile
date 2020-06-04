@@ -4,7 +4,7 @@ install:
 
 test:
 	python -m pytest -vv --cov=lib tests/*.py
-	python -m pytest --nbval notebook.ipynb
+	python -m pytest --nbval-lax notebook.ipynb
 
 
 lint:
