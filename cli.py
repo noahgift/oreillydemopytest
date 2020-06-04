@@ -2,7 +2,7 @@
 import click
 from lib.stuff import message
 
-var=
+#var=
 
 @click.command()
 def hello():
