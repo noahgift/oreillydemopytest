@@ -8,7 +8,7 @@ test:
 
 
 lint:
-	pylint --disable=R,C hello
+	pylint --disable=R,C hello cli
 
 format:
 	black *.py
